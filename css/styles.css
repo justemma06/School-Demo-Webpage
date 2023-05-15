@@ -33,7 +33,7 @@ nav ul li {
 .nav__ul-up{
     margin-left: 400px;
     background-color: #bee1e6 ;  
-    width: 857px;   
+    width: 840px;   
     border-bottom-left-radius: 25px;
     height: 45px;
     
@@ -112,5 +112,72 @@ nav ul li a:hover::after {
 
 .__img-button{
     margin: 5rem;
-    margin-left: 150px;
+    margin-left: 11rem;
+    width: 10rem;
+    height: 2.5rem;
+    background-color: orange;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+    
+}
+
+#__img-button2{
+    margin-left: 30rem;
+    width: 15rem;
+    background-color: lightskyblue;
+}
+
+.notice{
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+#__notice-h5{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(29, 29, 148);
+}
+.__notice-h6{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(66, 195, 237);
+}
+
+#__notice-p{
+    color: orange;
+}
+
+.programm{
+    margin-top: 15rem;
+    margin-left: 10rem;
+}
+.__programm-h5{
+    font-weight: bold;
+    color: rgb(11, 11, 75);
+    font-size: 26px;
+}
+.__programm-p{
+    color: rgb(11, 11, 75);
+    font-weight: 700;
+}
+
+.__programm-images{
+    display: flex;
+}
+
+.__programm-img{
+    width: 15rem;
+    margin: 10px;
+    
+}
+
+#__programm-hide{
+    display: none;
+}
+
+#__programm-toggle{
+    margin-left: 60rem;
 }
