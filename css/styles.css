@@ -33,7 +33,7 @@ nav ul li {
 .nav__ul-up{
     margin-left: 400px;
     background-color: #bee1e6 ;  
-    width: 874px;   
+    width: 857px;   
     border-bottom-left-radius: 25px;
     height: 45px;
     
@@ -95,9 +95,22 @@ nav ul li a:hover::after {
 }
 
 .__land-img{
-    margin-top: 5rem;
-    
+    background-image: url(../images/bdg8.jpg);
+    background-repeat: no-repeat;
+    height: 40rem;
+    width: 100%;
 }
-#__land-image{
-    width: 85.4rem
+
+.__img-text{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    /* padding: 10rem; */
+    font-weight: bold;
+    padding-top: 10rem;
+}
+
+.__img-button{
+    margin: 5rem;
+    margin-left: 150px;
 }
