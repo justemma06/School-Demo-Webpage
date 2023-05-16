@@ -32,10 +32,13 @@ nav ul li {
 }
 .nav__ul-up{
     margin-left: 400px;
-    background-color: #bee1e6 ;  
-    width: 840px;   
-    border-bottom-left-radius: 25px;
+    background-color: #ade7f0 ;  
+    width: 850px;   
+    border-bottom-left-radius: 30px;
     height: 45px;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
     
 }
 
@@ -79,10 +82,21 @@ nav ul li a:hover::after {
 }
 
 #nav__button{
-    margin-left: 18rem;
-    font-size: 15px;
-    height: 30px;
+    margin-left: 15rem;
+    width: 7rem;
+    border-radius: 20px;
+    height: 1.8rem;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 12px;
+};
+
+#nav__button:hover{
+    box-shadow: 0 0 50px white;
+    filter: brightness(100%)
 }
+
 
 .nav__input{
     margin-left: 17rem;
@@ -99,6 +113,7 @@ nav ul li a:hover::after {
     background-repeat: no-repeat;
     height: 40rem;
     width: 100%;
+    filter: brightness(90%);
 }
 
 .__img-text{
@@ -119,14 +134,23 @@ nav ul li a:hover::after {
     border: none;
     font-weight: bold;
     color: white;
-    border-radius: 7px;
-    
+    border-radius: 7px;  
+}
+.__img-button:hover{
+    color: white;
+    box-shadow: 0 0 50px whitesmoke;
+    filter: brightness(150%);
 }
 
 #__img-button2{
     margin-left: 30rem;
     width: 15rem;
     background-color: lightskyblue;
+}
+#__img-button2:hover{
+    color: white;
+    box-shadow: 0 0 50px lightskyblue;
+    filter: brightness(120%);
 }
 
 .notice{
@@ -223,7 +247,7 @@ nav ul li a:hover::after {
 
 .footer-div{
     width: 100%;
-    height: 80rem;
+    height: 90rem;
     background-color: rgb(17, 17, 113);
     margin-top: 5rem;
 }
@@ -244,6 +268,11 @@ nav ul li a:hover::after {
     background-color: orange;
     border: none;
     border-radius: 10px;
+}
+.__footer-donationbutt:hover{
+    color: white;
+    box-shadow: 0 0 50px orange;
+    filter: brightness(150%);
 }
 
 #__footer-donationbutt-text{
@@ -326,4 +355,39 @@ nav ul li a:hover::after {
     position: absolute;
     margin-left: 55rem;
     margin-top: -35rem;
+}
+
+.__footer-about{
+    position: absolute;
+    margin-left: 35rem;
+    margin-top: -10rem;
+}
+
+.__footer-campuses{
+    position: absolute;
+    margin-left: 55rem;
+    margin-top: -3rem;
+}
+.__footer-h6{
+    color: white;
+    font-weight: bold;
+}
+
+.__footer-ul{
+    color: white;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.__footer-copyright{
+    margin-left: 3rem;
+    margin-top: 15rem;
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+}
+
+#__footer-priv-pol{
+    color: rgb(0, 255, 225);
+    opacity: 50%;
 }
