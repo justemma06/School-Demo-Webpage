@@ -297,5 +297,33 @@ nav ul li a:hover::after {
 
 .__footer-locations{
     margin-top: 40px;
-    font-size: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.__footer-address{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.__footer-line{
+    position: absolute;
+    margin-left: 30rem;
+    width: 2px;
+    height: 48rem;
+    background-color: white;
+    margin-top: -40rem;
+}
+
+.__footer-studentservices{
+    position: absolute;
+    margin-left: 35rem;
+    margin-top: -40rem;
+}
+
+.__footer-schoolcentre{
+    position: absolute;
+    margin-left: 55rem;
+    margin-top: -35rem;
 }
