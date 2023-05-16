@@ -171,7 +171,9 @@ nav ul li a:hover::after {
 .__programm-img{
     width: 15rem;
     margin: 10px;
-    
+}
+.__programm-img:hover{
+    margin-bottom: 3rem;
 }
 
 #__programm-hide{
@@ -185,4 +187,115 @@ nav ul li a:hover::after {
 .notice2{
     margin-top: 8rem;
     margin-left: 10rem;
+}
+
+.__notice2-h4{
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(11, 11, 75);
+}
+
+.__notice2-h5{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(11, 11, 75);
+}
+
+.bdg-banner{
+    width: 75rem;
+    height: 20rem;
+    background-color:  rgb(11, 11, 75);
+    margin-left: 5.5rem;
+    margin-top: 10rem;
+    border-top-left-radius: 8rem;
+    border-bottom-right-radius: 8rem;
+}
+
+.__bdg-banner-h5{
+    text-align: center;
+    justify-content: center;
+    padding-top: 5rem;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+
+.footer-div{
+    width: 100%;
+    height: 80rem;
+    background-color: rgb(17, 17, 113);
+    margin-top: 5rem;
+}
+
+.__footer-log&butt{
+    display: inline-flex;
+}
+
+.__footer-logoimg{
+    padding-top: 10rem;
+    margin-left: 10rem;
+}
+
+.__footer-donationbutt{
+    margin-left: 30rem;
+    width: 20rem;
+    height: 4rem;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+}
+
+#__footer-donationbutt-text{
+    color: white;
+    text-decoration: none;
+}
+
+.__footer-arrimg{
+    position: absolute;
+    height: 5rem;
+    margin-top: 7rem;
+}
+
+.__footer-texts-div{
+    padding-top: 5rem;
+    margin-left: 10rem;
+}
+
+.__footer-h5{
+    display: inline-flex;
+    position: relative;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.__footer-texts{
+    margin-left: 3rem;
+    margin-top: 4rem;
+    color: white;
+    font-weight: bold;
+}
+
+.__footer-info{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.__footer-phone{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.__footer-direct{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    font-size: 20px;
+    color: aquamarine;
+    font-weight: bold;
+    opacity: 50%;
+}
+
+.__footer-locations{
+    margin-top: 40px;
+    font-size: 40px;
 }
