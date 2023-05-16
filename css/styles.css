@@ -139,7 +139,7 @@ nav ul li a:hover::after {
 .__img-button:hover{
     color: white;
     box-shadow: 0 0 50px whitesmoke;
-    filter: brightness(150%);
+    filter: brightness(140%);
 }
 
 #__img-button2{
@@ -149,8 +149,8 @@ nav ul li a:hover::after {
 }
 #__img-button2:hover{
     color: white;
-    box-shadow: 0 0 50px lightskyblue;
-    filter: brightness(120%);
+    box-shadow: 0 0 50px whitesmoke;
+    filter: brightness(110%);
 }
 
 .notice{
