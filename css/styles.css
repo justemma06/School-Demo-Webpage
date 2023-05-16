@@ -141,6 +141,13 @@ nav ul li a:hover::after {
     box-shadow: 0 0 50px whitesmoke;
     filter: brightness(140%);
 }
+.__img-buton-a{
+    color: white;
+    text-decoration: none;
+}
+/* .__img-button-a:hover{
+    color: white;
+} */
 
 #__img-button2{
     margin-left: 30rem;
@@ -162,7 +169,7 @@ nav ul li a:hover::after {
 #__notice-h5{
     font-size: 40px;
     font-weight: bold;
-    color: rgb(29, 29, 148);
+    color: rgb(23, 23, 180);
 }
 .__notice-h6{
     font-size: 25px;
@@ -180,7 +187,7 @@ nav ul li a:hover::after {
 }
 .__programm-h5{
     font-weight: bold;
-    color: rgb(11, 11, 75);
+    color: rgb(17, 17, 130);
     font-size: 26px;
 }
 .__programm-p{
@@ -216,13 +223,13 @@ nav ul li a:hover::after {
 .__notice2-h4{
     font-size: 48px;
     font-weight: bold;
-    color: rgb(11, 11, 75);
+    color: rgb(7, 7, 145);
 }
 
 .__notice2-h5{
     font-size: 35px;
     font-weight: bolder;
-    color: rgb(11, 11, 75);
+    color: rgb(10, 10, 93);
 }
 
 .bdg-banner{
