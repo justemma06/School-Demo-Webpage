@@ -181,3 +181,8 @@ nav ul li a:hover::after {
 #__programm-toggle{
     margin-left: 60rem;
 }
+
+.notice2{
+    margin-top: 8rem;
+    margin-left: 10rem;
+}
