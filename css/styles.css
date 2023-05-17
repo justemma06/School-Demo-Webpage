@@ -400,3 +400,42 @@ nav ul li a:hover::after {
 }
 
 /* CONTACT US STYLING */
+
+.contacts-information{
+    /* background-color: red; */
+}
+
+.contacts-info{
+    margin-top: 10rem;
+   
+    text-align: center;
+}
+.__contact-info-h4{
+    font-size: 3rem;
+    font-weight: bold;
+    color:  rgb(17, 17, 113);
+}
+.__contact-li{
+    display: inline;
+    font-weight: 500;
+    color:  rgb(17, 17, 113);
+    font-size: 1.5rem;
+    margin: 6px;
+}
+
+.__contacts-map-div{
+    width: 100%;
+    height: 40rem;
+    background-color: gainsboro;
+    margin-top: 20rem;
+}
+.__contacts-loctext{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.__contacts-request{
+    background-color: #ade7f0;
+    width: 100%;
+    height: 40rem;
+}
