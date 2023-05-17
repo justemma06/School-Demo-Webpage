@@ -50,7 +50,7 @@ nav ul li {
 
 li a {
     text-decoration-line: none;
-    font-size: 18px;
+    font-size: 15px;
     color: rgb(0, 0, 0);
     position: relative;
 }
@@ -398,3 +398,5 @@ nav ul li a:hover::after {
     color: rgb(0, 255, 225);
     opacity: 50%;
 }
+
+/* CONTACT US STYLING */
