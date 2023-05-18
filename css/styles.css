@@ -526,12 +526,71 @@ nav ul li a:hover::after {
 
 /* LOGIN PORTAL */
 
-.__login-divs{
-    display: inline-flex;
+.__login-h5{
+    text-align: center;
+    color: white;
+    background-color: red;
+    width: 8rem;
+    margin-left: 35rem;
+    height: 2rem;
+    font-weight: bold;
+    font-family: cursive;
 }
 #__login-employee{
-    background-color: blue;
-    height: 20rem;
-    width: 40rem;
-    margin-left: 20rem;
+    margin-left: 50rem;
+    background-color: rgb(17, 17, 113);
+    height: 30rem;
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+#__login-student{
+    margin-top: -30rem;
+    margin-right: 40rem;
+    text-align: center;
+    
+}
+.__login-h6{
+    /* display: inline-flex; */
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: rgb(17, 17, 113);
+    width: 15rem;
+    margin-left: 14rem;
+}
+#__login-empl-h6{
+    color: white;
+    font-family: cursive;
+    margin-left: 10rem;
+}
+.__login-button-div{
+    margin-top: 3rem;
+    width: 18rem;
+    padding: 5px;
+    background-color: rgb(255, 0, 157);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+#__login-employee-but{
+    background-color: white;
+    color: rgb(17, 17, 113);
+    margin-left: -3rem;
+    
+}
+#__login-dia-svg{
+    width: 10rem;
+    margin-left: 24rem; 
+}
+#__login-dia2-svg{
+    width: 10rem;
+    margin-left: -7rem;
+    margin-top: 5rem;
+    
+}
+#__login-cir-svg{
+    width: 20rem;
+    margin-top: 0rem;
 }
