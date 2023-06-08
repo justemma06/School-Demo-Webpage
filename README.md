@@ -1,0 +1,16 @@
+# SITE NAME
+School WEBPAGE
+# NAME OF CONTRIBUTOR
+EMMANUEL
+## BRIEF DESCRIPTION OF THE PROJECT
+It's a Demo School Webpage.
+## TECHNOLOGIES USED
+* HTML
+* CSS
+* BOOTSTRAP
+* Javascript
+## WEBPAGE LINK
+https://github.com/Justemma06
+## CONTACT INFORMATION
+* +2349013569580 (calls and WhatsApp)
+* imma2005nuel@gmail.com
